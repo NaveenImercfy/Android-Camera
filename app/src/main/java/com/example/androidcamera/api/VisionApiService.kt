@@ -15,7 +15,7 @@ interface VisionApiService {
     /**
      * Sends an image to Google Cloud Vision API for text detection
      * 
-     * @param apiKey Google Cloud API key
+     * @param apiKey Google Cloud API key as a query parameter
      * @param request Request body containing the image and features
      * @return Response from the Vision API
      */
